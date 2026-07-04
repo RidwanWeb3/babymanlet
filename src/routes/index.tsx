@@ -192,7 +192,7 @@ function Hero() {
             <GhostButton href="#token">View Chart <LineChart className="h-4 w-4" /></GhostButton>
           </div>
           <div className="mt-8 flex items-center gap-6 text-xs text-foreground/60">
-            <div><div className="font-display text-2xl font-bold text-foreground">$BABY</div>Ticker</div>
+            <div><div className="font-display text-2xl font-bold text-foreground">$BABYMANLET</div>Ticker</div>
             <div className="h-8 w-px bg-foreground/10" />
             <div><div className="font-display text-2xl font-bold text-foreground">TBA</div>Chain</div>
             <div className="h-8 w-px bg-foreground/10" />
@@ -451,7 +451,7 @@ function CopyRow({ label, value }: { label: string; value: string }) {
 function Token() {
   const rows = [
     { label: "Name", value: "BABY MANLET" },
-    { label: "Ticker", value: "BABY" },
+    { label: "Ticker", value: "$BABYMANLET" },
     { label: "Chain", value: "TBA" },
     { label: "Contract", value: "Coming Soon" },
     { label: "Taxes", value: "TBA" },
@@ -478,7 +478,7 @@ function Token() {
               transition={{ duration: 5, repeat: Infinity, ease: "easeInOut" }}
               loading="lazy"
             />
-            <div className="font-display text-2xl font-bold">$BABY</div>
+            <div className="font-display text-2xl font-bold">$BABYMANLET</div>
             <div className="text-sm text-foreground/60">The next generation begins.</div>
           </div>
           <div className="grid gap-3 sm:grid-cols-2">
