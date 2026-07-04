@@ -194,7 +194,7 @@ function Hero() {
           <div className="mt-8 flex items-center gap-6 text-xs text-foreground/60">
             <div><div className="font-display text-2xl font-bold text-foreground">$BABYMANLET</div>Ticker</div>
             <div className="h-8 w-px bg-foreground/10" />
-            <div><div className="font-display text-2xl font-bold text-foreground">TBA</div>Chain</div>
+            <div><div className="font-display text-2xl font-bold text-foreground">Solana</div>Chain</div>
             <div className="h-8 w-px bg-foreground/10" />
             <div><div className="font-display text-2xl font-bold text-foreground">∞</div>Potential</div>
           </div>
@@ -452,11 +452,8 @@ function Token() {
   const rows = [
     { label: "Name", value: "BABY MANLET" },
     { label: "Ticker", value: "$BABYMANLET" },
-    { label: "Chain", value: "TBA" },
+    { label: "Chain", value: "Solana" },
     { label: "Contract", value: "Coming Soon" },
-    { label: "Taxes", value: "TBA" },
-    { label: "Liquidity", value: "TBA" },
-    { label: "Ownership", value: "TBA" },
   ];
   return (
     <section id="token" className="relative py-28">
