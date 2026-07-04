@@ -75,7 +75,7 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
       },
       {
         name: "keywords",
-        content: "Baby Manlet, BABY, Crypto, Memecoin, Web3, Community, Manlet",
+        content: "Baby Manlet, $BABYMANLET, Crypto, Memecoin, Web3, Community, Manlet",
       },
       { property: "og:title", content: "BABY MANLET | BABY MANLET IS BORN" },
       {
