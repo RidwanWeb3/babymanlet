@@ -187,9 +187,9 @@ function Hero() {
             Stronger. Ready to conquer crypto — the next generation begins.
           </p>
           <div className="mt-8 flex flex-wrap gap-3">
-            <PrimaryButton href="#token">Buy Now <ArrowRight className="h-4 w-4" /></PrimaryButton>
+            <PrimaryButton href="https://pump.fun/coin/9iqECrqj7i7eyWwSvDLZfpL3LQN4BsNj8ECnQAESpump" external>Buy Now <ArrowRight className="h-4 w-4" /></PrimaryButton>
             <GhostButton href={X_URL} external>Join Community</GhostButton>
-            <GhostButton href="#token">View Chart <LineChart className="h-4 w-4" /></GhostButton>
+            <GhostButton href="https://dexscreener.com/solana/bmf2h9guwce14hjcy8rlxsfta2cuafovsnaeyeiulxcs" external>View Chart <LineChart className="h-4 w-4" /></GhostButton>
           </div>
           <div className="mt-8 flex items-center gap-6 text-xs text-foreground/60">
             <div><div className="font-display text-2xl font-bold text-foreground">$BABYMANLET</div>Ticker</div>
@@ -453,7 +453,7 @@ function Token() {
     { label: "Name", value: "BABY MANLET" },
     { label: "Ticker", value: "$BABYMANLET" },
     { label: "Chain", value: "Solana" },
-    { label: "Contract", value: "Coming Soon" },
+    { label: "Contract", value: "9iqECrqj7i7eyWwSvDLZfpL3LQN4BsNj8ECnQAESpump" },
   ];
   return (
     <section id="token" className="relative py-28">
